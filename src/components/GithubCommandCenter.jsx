@@ -13,7 +13,7 @@ export default function GithubCommandCenter({ theme = 'dark' }) {
           </div>
 
           <h2 className="section-title">
-            Code activity &amp; <span className="italic-serif">engineering specs.</span>
+            Code activity &amp; <span className="italic-serif">Contributions</span>
           </h2>
 
           <p className="section-subtitle" style={{ marginBottom: '3rem' }}>

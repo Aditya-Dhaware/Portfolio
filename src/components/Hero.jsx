@@ -69,20 +69,19 @@ export default function Hero() {
             {/* Bio Pitch */}
             <p className="hero-description">
               Full-Stack MERN Developer &amp; Software Engineer architecting scalable web applications with 
-              MongoDB, Express.js, React.js, and Node.js. Combining robust MERN full-stack foundations with 
-              real-time WebRTC communications from Pune, Maharashtra.
+              MongoDB, Express.js, React.js, and Node.js. 
             </p>
 
             {/* Action Dock */}
             <div className="hero-actions-dock">
               <a href="#projects" className="primary-btn">
-                <span>Explore Engineering Work</span>
+                <span>View Projects</span>
                 <ArrowRight size={16} />
               </a>
 
               <a href="#contact" className="liquid-glass-btn">
                 <Sparkles size={16} color="var(--accent-emerald)" />
-                <span>Initiate Contact</span>
+                <span>Contact</span>
               </a>
 
               <a 

@@ -12,8 +12,7 @@ export default function About() {
           </div>
 
           <h2 className="section-title">
-            Architectural depth with <br />
-            <span className="italic-serif">production-minded discipline.</span>
+            About&nbsp;<span className="italic-serif"> Me</span>
           </h2>
 
           <p className="section-subtitle" style={{ marginBottom: '3.5rem' }}>

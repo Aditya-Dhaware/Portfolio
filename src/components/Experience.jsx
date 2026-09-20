@@ -12,7 +12,7 @@ export default function Experience() {
           </div>
 
           <h2 className="section-title">
-            Engineered in <span className="italic-serif">the trenches.</span>
+            Experience
           </h2>
 
           <p className="section-subtitle" style={{ marginBottom: '3rem' }}>

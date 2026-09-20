@@ -26,7 +26,7 @@ export default function Skills() {
           </div>
 
           <h2 className="section-title">
-            Technologies in my <span className="italic-serif">active arsenal.</span>
+            Skills & <span className="italic-serif">Technologies</span>
           </h2>
 
           <p className="section-subtitle" style={{ marginBottom: '3.5rem' }}>

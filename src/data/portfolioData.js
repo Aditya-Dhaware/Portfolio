@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
   github: "https://github.com/Aditya-Dhaware",
   linkedin: "https://www.linkedin.com/in/aditya-dhaware-27a663416/",
   availability: "Open to Full-Time MERN & Engineering Roles",
-  statusBadge: "Full-Stack MERN Developer • Available for Hire",
+  statusBadge: "Full-Stack MERN Developer • Open To Work",
   bio: [
     "Full-Stack MERN Developer & Software Engineer specializing in scalable React.js frontends, Node.js/Express.js backends, MongoDB data pipelines, and real-time media streams.",
     "Holds an M.Sc. in Computer Application (8.41 CGPA, A+) from Savitribai Phule Pune University. Passionate about architecting production-grade MERN solutions with clean code, high concurrency, and sub-second response times."

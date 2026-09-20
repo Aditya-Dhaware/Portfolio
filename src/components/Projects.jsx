@@ -21,7 +21,7 @@ export default function Projects() {
           </div>
 
           <h2 className="section-title">
-            Products built to <span className="italic-serif">solve real friction.</span>
+            Projects &nbsp;
           </h2>
 
           <p className="section-subtitle" style={{ marginBottom: '2.5rem' }}>

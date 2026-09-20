@@ -12,8 +12,7 @@ export default function EducationCertifications() {
           </div>
 
           <h2 className="section-title">
-            Academic foundations &amp; <br />
-            <span className="italic-serif">professional certifications.</span>
+            Education &amp; Certifications
           </h2>
 
           <p className="section-subtitle" style={{ marginBottom: '3.5rem' }}>
@@ -27,7 +26,7 @@ export default function EducationCertifications() {
           <div className="reveal-on-scroll reveal-left">
             <h3 className="edu-column-title">
               <GraduationCap size={22} />
-              <span>Formal Education</span>
+              <span>Qualification</span>
             </h3>
 
             {EDUCATION_DATA.map((edu, idx) => (
@@ -66,7 +65,7 @@ export default function EducationCertifications() {
           <div className="reveal-on-scroll reveal-right">
             <h3 className="edu-column-title">
               <Award size={22} color="var(--accent-emerald)" />
-              <span>Industry Certifications</span>
+              <span>Certificates</span>
             </h3>
 
             {CERTIFICATIONS_DATA.map((cert, idx) => (
