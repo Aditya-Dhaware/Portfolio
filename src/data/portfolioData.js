@@ -9,6 +9,7 @@ export const PERSONAL_INFO = {
   phone: "+91 7709301229",
   github: "https://github.com/Aditya-Dhaware",
   linkedin: "https://www.linkedin.com/in/aditya-dhaware-27a663416/",
+  resumePdf: "/Aditya_Dhaware_Resume.pdf",
   availability: "Open to Full-Time MERN & Engineering Roles",
   statusBadge: "Full-Stack MERN Developer • Open To Work",
   bio: [

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, FileText, ArrowUpRight, Mail, Sun, Moon } from 'lucide-react';
+import { Menu, X, FileText, ArrowUpRight, Mail, Sun, Moon, Download } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { PERSONAL_INFO } from '../data/portfolioData';
 
@@ -173,14 +173,27 @@ export default function Navbar({ onOpenResume, theme = 'dark', toggleTheme }) {
           </ul>
 
           <div className="mobile-nav-footer">
-            <button 
-              type="button" 
-              onClick={() => { setIsMobileOpen(false); onOpenResume(); }}
-              className="primary-btn mobile-nav-resume-btn"
-            >
-              <FileText size={16} />
-              <span>View &amp; Download Resume</span>
-            </button>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', width: '100%' }}>
+              <a 
+                href="/Aditya_Dhaware_Resume.pdf"
+                download="Aditya_Dhaware_Resume.pdf"
+                onClick={() => setIsMobileOpen(false)}
+                className="primary-btn mobile-nav-resume-btn"
+                style={{ width: '100%', justifyContent: 'center', textDecoration: 'none' }}
+              >
+                <Download size={16} />
+                <span>Download Resume (PDF)</span>
+              </a>
+              <button 
+                type="button" 
+                onClick={() => { setIsMobileOpen(false); onOpenResume(); }}
+                className="liquid-glass-btn"
+                style={{ width: '100%', justifyContent: 'center', padding: '0.65rem 1rem', fontSize: '0.85rem' }}
+              >
+                <FileText size={15} />
+                <span>View Full Curriculum Vitae</span>
+              </button>
+            </div>
 
             <div className="mobile-nav-socials">
               <a href={PERSONAL_INFO.github} target="_blank" rel="noreferrer" className="social-circle-btn" aria-label="GitHub Profile">

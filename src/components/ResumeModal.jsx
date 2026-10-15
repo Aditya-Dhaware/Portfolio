@@ -82,22 +82,34 @@ export default function ResumeModal({ isOpen, onClose }) {
             <span>📍 {PERSONAL_INFO.location}</span>
           </div>
 
-          <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.25rem' }}>
-            <button 
-              type="button" 
-              onClick={handlePrint}
+          <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.25rem', flexWrap: 'wrap' }}>
+            <a 
+              href="/Aditya_Dhaware_Resume.pdf" 
+              download="Aditya_Dhaware_Resume.pdf"
               className="primary-btn"
-              style={{ padding: '0.5rem 1.25rem', fontSize: '0.8125rem' }}
+              style={{ padding: '0.5rem 1.25rem', fontSize: '0.8125rem', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.45rem' }}
+              title="Download Aditya Dhaware's Resume (PDF)"
             >
               <Download size={14} />
-              <span>Print / Save as PDF</span>
-            </button>
+              <span>Download Resume (PDF)</span>
+            </a>
+            <a 
+              href="/Aditya_Dhaware_Resume.pdf" 
+              target="_blank" 
+              rel="noreferrer"
+              className="liquid-glass-btn"
+              style={{ padding: '0.5rem 1.25rem', fontSize: '0.8125rem', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.45rem' }}
+              title="Open Resume PDF in New Tab"
+            >
+              <ExternalLink size={13} />
+              <span>View PDF</span>
+            </a>
             <a 
               href={PERSONAL_INFO.linkedin}
               target="_blank"
               rel="noreferrer"
               className="liquid-glass-btn"
-              style={{ padding: '0.5rem 1.25rem', fontSize: '0.8125rem' }}
+              style={{ padding: '0.5rem 1.25rem', fontSize: '0.8125rem', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.45rem' }}
             >
               <span>LinkedIn Profile</span>
               <ExternalLink size={13} />
